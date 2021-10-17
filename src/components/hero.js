@@ -9,11 +9,11 @@ const Hero = () => {
         <div className="hero-wrapper grid grid-cols-1 md:grid-cols-12 gap-8 items-center">
           {/* <!-- hero text --> */}
           <div className="hero-text col-span-6">
-            <h1 className=" font-bold text-4xl md:text-5xl max-w-xl text-indigo-700 leading-tight">
+            <h1 className="font-bold text-4xl md:text-5xl max-w-xl text-indigo-700 leading-tight">
               Medico EHR
             </h1>
-            <h2 className=" font-bold text-lg md:text-xl max-w-xl text-gray-900 leading-tight mt-8">
-              Awka, Lagos, Paris, Beijing... Accessible, verifiable and
+            <h2 className="font-semibold text-lg md:text-xl max-w-xl text-gray-900 leading-tight mt-8">
+              Awka, Lagos, Paris, Beijing... accessible, verifiable and
               cryptograhically secure health records anywhere you go
             </h2>
             {/* <hr className=" w-12 h-1 bg-orange-500 rounded-full mt-12" /> */}
@@ -23,10 +23,8 @@ const Hero = () => {
               histories, prescription records and past test results.
             </p>
 
-            <button
-              className="mt-12 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-blue-700 hover:bg-blue-800"
-            >
-              Sign in with Metamask
+            <button className="mt-12 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-blue-700 hover:bg-blue-800">
+              Sign in with Metamask to get your records
             </button>
             {/* <div className="get-app flex space-x-5 mt-10 justify-center md:justify-start">
               <button className="apple bg-white shadow-md px-3 py-2 rounded-lg flex items-center space-x-4">

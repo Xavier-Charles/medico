@@ -311,7 +311,7 @@ const Header = () => {
                 Pricing
               </a>
               <a
-                href="#"
+                href="https://github.com/Xavier-Charles/medico"
                 className="text-base font-medium text-gray-500 hover:text-gray-900"
               >
                 Docs
